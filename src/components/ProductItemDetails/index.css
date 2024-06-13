@@ -1,0 +1,275 @@
+/* Write your CSS here */
+.pro-container {
+  min-height: 100vh;
+  padding: 20px;
+}
+.responsive-pro1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.responsive-pro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .responsive-pro {
+    flex-direction: row;
+    width: 80%;
+  }
+  .responsive-pro1 {
+    align-items: center;
+  }
+}
+.products-loader-containera1 {
+  display: flex;
+  justify-content: center;
+  align-items: ceter;
+}
+.img-pro {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .img-pro {
+    width: 300px;
+  }
+  .heading-conatiner {
+    margin-left: 20px;
+    width: 50%;
+  }
+}
+
+.rating-con {
+  background-color: #3b82f6;
+  color: white;
+  display: flex;
+  padding: 0px;
+  border-radius: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 50px;
+  align-self: center;
+  margin-right: 10px;
+  text-align: center;
+}
+.rating-con1 {
+  display: flex;
+}
+.star {
+  width: 30px;
+  align-self: center;
+  margin-left: 2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.separate {
+  width: 100%;
+  border-style: solid;
+  border-color: #616e7c;
+}
+.incremnt-con {
+  display: flex;
+  align-items: center;
+}
+.but-incri {
+  align-self: center;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+.but-decri {
+  margin-left: 10px;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+.count-incri {
+  margin-left: 10px;
+  font-size: 20px;
+  align-self: center;
+  margin-top: 13px;
+}
+.add-tocart-but {
+  padding: 10px;
+  margin-top: px;
+  font-size: 15px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  align-self: flex-start;
+  font-family: roboto;
+}
+.responsive-pro1 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 30px;
+}
+.similar-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  list-style-type: none;
+  align-items: flex-start;
+}
+.products-error-view-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container1 {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+  .similar-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 70px;
+  }
+  .similar-hed {
+    align-self: flex-start;
+    margin-left: 140px;
+  }
+}
+
+.products-failure-img1 {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img1 {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text1 {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text1 {
+    font-size: 24px;
+  }
+}
+
+.products-failure-description1 {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description1 {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+.createbut {
+  padding: 10px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  color: white;
+  border-width: 0px;
+}
+.rating-para {
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  font-size: 25px;
+  font-family: roboto;
+}
+.heading-title {
+  font-size: 30px;
+  font-family: roboto;
+  color: #475569;
+}
+.priceTag {
+  font-size: 28px;
+  font-family: roboto;
+  color: #12022f;
+  font-weight: 1000;
+}
+.totalreviews {
+  font-size: 20px;
+  font-family: roboto;
+  color: #1e293b;
+  font-weight: 500;
+}
+.para-description {
+  font-size: 25px;
+  font-family: roboto;
+  color: #616e7c;
+  font-weight: 350;
+}
+.available-set {
+  font-size: 25px;
+  font-family: roboto;
+  color: #1e293b;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .para-description {
+    font-size: 15px;
+  }
+  .priceTag {
+    font-size: 15px;
+  }
+  .rating-para {
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .star {
+    width: 20px;
+  }
+  .rating-con {
+    background-color: #3b82f6;
+    color: white;
+    display: flex;
+    padding: 0px;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 30px;
+    align-self: center;
+    margin-left: 10px;
+  }
+  .totalreviews {
+    font-size: 12px;
+  }
+  .available-set {
+    font-size: 12px;
+  }
+}

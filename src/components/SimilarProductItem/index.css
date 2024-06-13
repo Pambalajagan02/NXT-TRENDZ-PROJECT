@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.similrcon {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .similrcon {
+    margin-left: 50px;
+  }
+}
+.ratingcon {
+  background-color: #3b82f6;
+  color: white;
+  display: flex;
+  padding: 0px;
+  border-radius: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 50px;
+  align-self: center;
+  margin-right: 10px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .ratingcon {
+    background-color: #3b82f6;
+    color: white;
+    display: flex;
+    padding: 0px;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 30px;
+    align-self: center;
+    margin-left: 10px;
+  }
+}
+.rating-des {
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  font-size: 25px;
+  font-family: roboto;
+}
+@media (min-width: 768px) {
+  .rating-des {
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+  }
+}
+.pricecon {
+  display: flex;
+}
+.similar-image {
+  width: 250px;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .similar-image {
+    width: 200px;
+  }
+}
+.title-para {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #171f46;
+  padding: 0px;
+  margin-top: 12px;
+}
+.title-para2 {
+  font-size: 26px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #171f46;
+  padding: 0px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.brand-t {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #616e7c;
+  margin-top: 2px;
+}
+@media (min-width: 768px) {
+  .title-para {
+    font-size: 13px;
+  }
+  .title-para2 {
+    font-size: 20px;
+  }
+  .brand-t{
+    font-size: 12px;
+  }
+}
